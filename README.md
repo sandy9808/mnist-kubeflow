@@ -41,6 +41,7 @@ Run this command in local terminal.
 kubectl describe svc/minio-service -n kubeflow
 ```
 <img width="670" alt="image" src="https://github.com/sandy9808/mnist-kubeflow/assets/58395595/43c53a3a-fb71-4193-8ded-1b8cd49343f2">
+
 Replace this ip address with the ip address written in all notebooks wherever minio_client is used.
 
 4. Execute all the cells of digits_recognizer_notebook.ipynb after ensuring minio can be accessed from this notebook.
