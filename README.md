@@ -1,5 +1,5 @@
 
-Clone this repo for running kubectl commands in the local terminal.
+Clone this repo in local machine for running kubectl commands in the local terminal.
 1. Apply the configuration with the following command:
 
     ```bash
@@ -9,7 +9,7 @@ Clone this repo for running kubectl commands in the local terminal.
 2. Spinning up a new Notebook Instance
 Head to notebooks in kubeflow dashboard. For the container image, select `jupyter-tensorflow-full:v1.8.0`.
 
-3. Clone this repo in the notebook server terminal.
+3. Clone this repo in the notebook server terminal inside kubeflow.
 
 Update Python Packages
 
